@@ -1,5 +1,4 @@
 /* Global Layout Set-up */
-
 * {
   box-sizing: border-box;
 }
@@ -87,13 +86,6 @@ header .profile-image:hover {
   transform: scale(1.2);
 }
 
-.work {
-  color: gray;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 14px;
-}
-
 .tag {
   background-color: #efefef;
   color: black;
@@ -117,6 +109,13 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all 0.5s;
+}
+
+.work {
+  color: gray;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
 }
 
 .card:hover {
